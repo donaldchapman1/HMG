@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Don Chapman - Hope Media Group</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        font-family:'Inter',sans-serif;
+        background:#f4f6f8;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+        padding:20px;
+    }
+
+    .card{
+        width:950px;
+        background:white;
+        border-radius:18px;
+        overflow:hidden;
+        box-shadow:0 15px 45px rgba(0,0,0,0.12);
+    }
+
+    .top-bar{
+        height:8px;
+        background:linear-gradient(90deg,#d91f44,#ff7b00);
+    }
+
+    .content{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .left{
+        flex:1;
+        min-width:280px;
+        background:#ffffff;
+        padding:50px 40px;
+        border-right:1px solid #e5e7eb;
+    }
+
+    .hope-logo{
+        font-size:72px;
+        font-weight:800;
+        color:#333;
+        line-height:0.9;
+    }
+
+    .media-group{
+        color:#d91f44;
+        font-size:20px;
+        font-style:italic;
+        margin-left:105px;
+        margin-top:-5px;
+    }
+
+    .right{
+        flex:1.4;
+        min-width:320px;
+        padding:50px 45px;
+    }
+
+    .name{
+        font-size:42px;
+        font-weight:700;
+        color:#d91f44;
+        margin-bottom:8px;
+    }
+
+    .title{
+        font-size:24px;
+        color:#444;
+        margin-bottom:35px;
+        line-height:1.4;
+    }
+
+    .contact{
+        display:grid;
+        gap:16px;
+    }
+
+    .contact-item{
+        display:flex;
+        align-items:center;
+        gap:14px;
+        font-size:22px;
+        color:#222;
+    }
+
+    .icon{
+        width:42px;
+        height:42px;
+        border-radius:10px;
+        background:#f3f4f6;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:18px;
+    }
+
+    .brands{
+        border-top:1px solid #e5e7eb;
+        padding:30px 40px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:28px;
+        background:#fafafa;
+    }
+
+    .brand{
+        font-size:22px;
+        font-weight:700;
+        color:#555;
+    }
+
+    .footer{
+        background:#111827;
+        color:#d1d5db;
+        font-size:13px;
+        line-height:1.6;
+        padding:22px 30px;
+    }
+
+    @media(max-width:800px){
+
+        .content{
+            flex-direction:column;
+        }
+
+        .left{
+            border-right:none;
+            border-bottom:1px solid #e5e7eb;
+        }
+
+        .hope-logo{
+            font-size:58px;
+        }
+
+        .name{
+            font-size:34px;
+        }
+
+        .title{
+            font-size:20px;
+        }
+
+        .contact-item{
+            font-size:18px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="top-bar"></div>
+
+    <div class="content">
+
+        <div class="left">
+            <div class="hope-logo">Hope</div>
+            <div class="media-group">media group</div>
+        </div>
+
+        <div class="right">
+
+            <div class="name">Don Chapman</div>
+
+            <div class="title">
+                Regional Director of Engineering South-West
+            </div>
+
+            <div class="contact">
+
+                <div class="contact-item">
+                    <div class="icon">📞</div>
+                    <div>281.319.6951</div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon">☎️</div>
+                    <div>281.639.0714</div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon">🌐</div>
+                    <div>hopemediagroup.com</div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon">📡</div>
+                    <div>Broadcast Engineering & Infrastructure</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="brands">
+
+        <div class="brand">89.3 KSBJ</div>
+        <div class="brand">WayFM</div>
+        <div class="brand">Vida Unida</div>
+        <div class="brand">Worship 24/7</div>
+        <div class="brand">NGEN Radio</div>
+        <div class="brand">God Listens</div>
+
+    </div>
+
+    <div class="footer">
+        Experienced broadcast engineering leadership supporting multi-market
+        radio infrastructure, studio systems, RF facilities, and digital media operations.
+    </div>
+
+</div>
+
+</body>
+</html>
