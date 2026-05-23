@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 26.4.1//EN
+N:Chapman;Don;;;
+FN:Donald Chapman
+NICKNAME:Regional Director of Engineering, SW
+ORG:Hope Media Group;
+EMAIL;type=INTERNET;type=pref:dchapman@hopemediagroup.com
+item1.X-ABLabel:KSBJ
+
+item3.X-ABLabel:Google
+TEL;type=Mobile;type=CELL;type=VOICE:(281) 639-0714
+TEL;type=Desk;type=VOICE:281-319-6951
+
+ADR;type=WORK:;;21620 Valley Ranch Parkway;New Caney;TX;77357;
+END:VCARD
